@@ -14,3 +14,12 @@ sqlmap –u testphp.vulnweb.com/artists.php?artist=1 –D acuart –T users –C
 
 sqlmap –u testphp.vulnweb.com/artists.php?artist=1 –D acuart –T users –C pass –dump
 
+ week9
+ 
+ suricata tool
+ 
+ 
+ apt install suricata 
+ suricata -i eth0 -v
+ ctrl + c
+ cat /var/log/suricata/eve.json
